@@ -1,0 +1,1 @@
+<div class="error_div"> <?=__("Error404")?> </div>

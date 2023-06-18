@@ -1,0 +1,42 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="250" height="20" viewBox="0 0 80 20">
+  <circle fill="#28B293" stroke="none" cx="6" cy="10" r="6">
+    <animate
+      attributeName="opacity"
+      dur="1s"
+      values="0;1;0"
+      repeatCount="indefinite"
+      begin="0.1"/>    
+  </circle>
+  <circle fill="#28B293" stroke="none" cx="26" cy="10" r="6">
+    <animate
+      attributeName="opacity"
+      dur="1s"
+      values="0;1;0"
+      repeatCount="indefinite" 
+      begin="0.2"/>       
+  </circle>
+  <circle fill="#28B293" stroke="none" cx="46" cy="10" r="6">
+    <animate
+      attributeName="opacity"
+      dur="1s"
+      values="0;1;0"
+      repeatCount="indefinite" 
+      begin="0.3"/>     
+  </circle>
+  <circle fill="#28B293" stroke="none" cx="66" cy="10" r="6">
+    <animate
+      attributeName="opacity"
+      dur="1s"
+      values="0;1;0"
+      repeatCount="indefinite" 
+      begin="0.4"/>     
+  </circle>
+  <circle fill="#28B293" stroke="none" cx="86" cy="10" r="6">
+    <animate
+      attributeName="opacity"
+      dur="1s"
+      values="0;1;0"
+      repeatCount="indefinite" 
+      begin="0.5"/>     
+  </circle>
+</svg>

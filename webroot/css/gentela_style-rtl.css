@@ -1,0 +1,260 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Jannat";
+    src: url("../fonts/a-jannat-lt.otf");
+}
+@font-face {
+    font-family: "Jannat";
+    src: url("../fonts/a-jannat-lt-bold.otf");
+    font-weight: bold;
+}
+
+html,
+body {
+    font-family: "Jannat";
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: "";
+}
+.form-control {
+    font-size: 0.8rem;
+    min-height: 38px;
+}
+.main_container {
+    direction: rtl;
+}
+.nav-md .container.body .right_col {
+    margin-right: 230px;
+    margin-left: 0;
+}
+.main_container .top_nav {
+    margin-left: 0;
+    margin-right: 230px;
+}
+.toggle {
+    float: right;
+}
+.navbar-nav {
+    float: left;
+}
+.profile_pic {
+    float: right;
+}
+.profile_info {
+    float: left;
+}
+.main_menu span.fa {
+    float: left;
+}
+.nav.child_menu li {
+    padding-right: 26px;
+}
+.nav-md ul.nav.child_menu li::before {
+    right: 16px;
+    left: auto;
+}
+.nav-md ul.nav.child_menu li::after {
+    right: 20px;
+    left: auto;
+}
+.active a span.fa {
+    text-align: center !important;
+}
+.nav_title .site_title img {
+    margin: 2px 20px;
+    float: right;
+}
+.nav_title .site_title span {
+    float: right;
+}
+.nav-sm .container.body .right_col {
+    margin-right: 70px;
+    margin-left: 0;
+}
+.nav-sm .main_container .top_nav {
+    margin-left: 0;
+    margin-right: 70px;
+}
+.nav-sm .nav.side-menu li a {
+    padding: 8px 14px;
+}
+.nav-sm ul.nav.child_menu {
+    left: auto;
+    right: 70px;
+}
+.nav-sm ul.nav.child_menu li a {
+    text-align: center !important;
+}
+.top_nav .navbar-right {
+    margin: 10px;
+}
+.top_nav .navbar-right {
+    margin-left: 20px;
+}
+.top_nav .navbar-right li {
+    line-height: 32px;
+}
+.col-md-55,
+.col-xs-12,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+    float: right;
+}
+.x_content {
+    float: right;
+}
+.panel_toolbox {
+    float: left;
+}
+.x_title h2 {
+    float: right;
+}
+.input-group > .custom-select:not(:last-child),
+.input-group > .form-control:not(:last-child) {
+    border-radius: 0px 25px 25px 0px;
+}
+footer .pull-right {
+    float: left;
+    text-align: left;
+}
+footer {
+    margin-left: 0;
+    margin-right: 230px;
+}
+.nav-sm footer {
+    margin-left: 0;
+    margin-right: 70px;
+}
+button,
+.buttons,
+.btn,
+.modal-footer .btn + .btn {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.ui-pnotify-icon,
+.ui-pnotify-icon span {
+    float: right;
+    margin-left: 0.2em;
+    line-height: 30px;
+}
+.ui-pnotify-closer,
+.ui-pnotify-sticker {
+    float: left;
+    margin-right: 0.2em;
+}
+.top_search.pull-right {
+    float: left !important;
+}
+.title_left {
+    float: right !important;
+}
+.navbar-nav .open .dropdown-menu {
+    right: auto;
+    left: auto;
+    top: 18px !important;
+}
+.info-number .badge {
+    right: -8px;
+    top: 0px;
+}
+.top_search .input-group-btn button {
+    border-radius: 25px 0px 0px 25px;
+}
+.pagination li a {
+    margin-right: 0;
+    margin-left: 6px;
+}
+.has-feedback tags-input .tags {
+    direction: rtl;
+}
+tags-input .tags .tag-item,
+tags-input .tags .input,
+tags-input .tags .tag-list {
+    float: right;
+}
+.has-feedback tags-input .tags {
+    padding-left: 30px;
+    padding-right: 0;
+}
+.side_div2 {
+    text-align: left;
+}
+.tile_stats_count:first-child:before {
+    border-left: 2px solid #adb2b5 ;
+}
+.tile_stats_count:last-child:before {
+    border-left: none ;
+}
+.expand-icon{
+    text-align: left;
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 768px) {
+    .hideMob {
+        display: none;
+    }
+    .tile_stats_count:last-child::before {
+        border-left: 2px solid #ADB2B5;
+    }
+}
+@media (max-width: 992px) {
+    .nav-md .container.body .right_col {
+        margin-right: 0;
+    }
+    footer {
+        margin-right: 0;
+    }
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 430px) {
+}

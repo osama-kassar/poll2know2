@@ -1,0 +1,49 @@
+<style>
+@import url(//fonts.googleapis.com/earlyaccess/notokufiarabic.css); 
+@import url(//fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap); 
+.msg_tm{
+    font-family: 'Noto Kufi Arabic', sans-serif; 
+    direction: rtl;
+    text-align:center;
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+    border: 1px solid #28B293;
+}
+.msg_tm header{
+   background:#28B293; 
+   margin: 0; 
+   padding:20px;
+   min-height:70px;
+   border-bottom:1px solid #ccc; 
+}
+.msg_tm .logo{
+    width:50%; 
+    text-align:left; 
+    float:left;
+}
+.msg_tm .logo img{
+    max-width:100%; 
+    padding:10px 0;
+}
+.msg_tm .btn{
+    color:#28B293;
+    border:1px solid #28B293;
+    border-radius:50px; 
+    font-size:30px; 
+    padding:2px 36px;
+    text-decoration:none;
+}
+.msg_tm footer{
+    text-align:left;
+    border-top:1px solid #ccc; 
+    background:#28B293; 
+    padding:20px;
+}
+.msg_tm .signature{
+    font-family: 'Nothing You Could Do', cursive;
+    font-style:italic;
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    transform: rotate(-10deg);
+}
+</style>

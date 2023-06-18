@@ -1,0 +1,66 @@
+body, *{
+  font-family: Arial, sans-serif;
+}
+.header-mobile .header-maxi .navigation-mobile-container #navigation-mobile .main-manu, select.form-control, .mycheckbox input[type="checkbox"]+span, .myradiobtn input[type="radio"]+span, .pro-title a, .result_div h2, button.btn, a.btn, .footer-three .footer-top-content h4 {
+    font-family: Arial, sans-serif !important;
+}
+.modal-header .close {
+    padding: 0;
+    margin: 0;
+}
+select.form-control{
+    background: url("../img/d-arrow.png") no-repeat right #fff;
+    background-position-x: right;
+}
+.header-one .header-maxi .pro-header-right-options .dropdown .dropdown-menu {
+    margin-top: 32px;
+}
+.funkyradio input[type="radio"]:empty ~ label::before, .funkyradio input[type="checkbox"]:empty ~ label::before {
+    left: auto;
+    right: 0;
+    border-radius:  0 3px 3px 0;
+}
+.funkyradio input[type="radio"]:empty ~ label, .funkyradio input[type="checkbox"]:empty ~ label {
+    padding-left: 0;
+}
+.followus{
+    text-align: left;
+}
+.checkmark{
+    right: 0;
+    left: auto;
+}
+ .pro-title small {
+     float: right
+}
+.pos-right-top{
+    right: auto;
+    left: 0;
+}
+.cmpttr_res ii {
+    right: auto;
+    left: 0;
+}
+.exam-desc address{
+    text-align: left;
+}
+.dropdown-menu a {
+    text-align: left;
+}
+.header-one .header-mini .dropdown .dropdown-menu .dropdown-item {
+    text-align: left;
+}
+.option_style a {
+    left: auto;
+    right: 8px;
+}
+.bigPhoto .rtl, .bigPhoto .ltr{
+    direction: ltr;
+    text-align: left;
+}
+.pro-desc{
+    height: 54px;
+}
+.popular-product article .pro-description .pro-price ins {
+    padding: 0 3px;
+}

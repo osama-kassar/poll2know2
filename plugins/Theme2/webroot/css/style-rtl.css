@@ -1,0 +1,113 @@
+
+body, *{
+  font-family: "Jannat", "Montserrat-Regular", sans-serif;
+}
+
+
+.code {
+  margin-left: 0 !important;
+  margin-right: 40px !important;
+  margin-top: 5px !important;
+}
+
+footer.sm .row form input:first-of-type:not(.code) {
+  margin-top: 10px;
+  margin-right: 0 !important;
+}
+
+footer.lg .row form input:first-of-type:not(.code) {
+  margin-right: 0 !important;
+}
+
+@media (min-width: 768px) {
+  .page-content .articles {
+    border-right: none !important;
+    border-left: 1px solid #eee !important;
+  }
+}
+@media (min-width: 768px) {
+  .page-content .articles .card {
+    border-right: none !important;
+    border-left: 1px solid #eee !important;
+  }
+}
+
+.my-dropdown-lg {
+  right: 70px !important;
+}
+
+.my-dropdown,
+.my-dropdown-lg {
+  right: -210px !important;
+}
+
+.score-dropdown-lg {
+  right: -180px !important;
+}
+
+.send-dropdown-lg {
+  right: -240px !important;
+}
+
+.head::before {
+  right: 0 !important;
+}
+
+header.small {
+  padding: 5px !important;
+}
+header.small .logo {
+  position: relative;
+  left: -20px;
+  padding: 0;
+  width: 80px;
+}
+
+.search-box input {
+  padding: 0 10px 0;
+}
+
+@media (max-width: 486px) {
+  .page-content .articles .latest-polls .poll .poll-desc {
+    height: 21px;
+  }
+}
+.sidebar {
+  right: -250px;
+}
+.sidebar.navigation-active {
+  right: 0 !important;
+}
+#navigation-mobile.navigation-active {
+  left:unset !important ;
+}
+.accordion-button::after {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+#login_mdl  .btn-close {
+  margin: 0;
+}
+#login_mdl  .modal-title {
+  font-size: 20px;
+}
+footer .contact h3 {
+  font-size: 23px;
+}
+footer .contact p {
+  font-size: 15px;
+}/*# sourceMappingURL=style-rtl.css.map */
+.score-dropdown-lg {
+right: -229px !important;
+}
+
+@media (max-width:992px) {
+  
+  .dropdown-menu-right {
+  left: unset !important;
+}
+  .send-dropdown-lg {
+right: -227px !important;
+  }
+}
